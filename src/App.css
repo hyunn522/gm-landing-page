@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif, "Noto Sans KR", "Reem Kufi", "Angkor";
+  scroll-behavior: smooth;
+  background-color: #ebeae6;
+  
+}
+.content {
+  padding: 0 40px; 
+  background-clip: border-box;
+  background-color: white
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Bold';
+  src: url('./assets/Spoqa Han Sans Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Spoqa Han Sans Neo';
+  src: url('./assets/Spoqa Han Sans Regular.ttf');
+}
+
+.hero_content, .bslider_content, .slider_content, .footer {
+  white-space: pre-wrap;
+}
+
