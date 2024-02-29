@@ -1,143 +1,143 @@
 #bslider_i {
-    display: flex;
-    align-items: center;
-    height: 50rem;
+  display: flex;
+  align-items: center;
+  height: 50rem;
 
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 .bslider {
-    display: flex;
-    align-items: center;
-    height: 40rem;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  height: 40rem;
+  width: 100%;
 
-    opacity: 0;
-    transform: scale(90%);
-    transition: 2s;
+  opacity: 0;
+  transform: scale(90%);
+  transition: 2s;
 }
 
 .bslider--zoom {
-    opacity: 1;
-    transform: scale(100%);
-    transition: 2s;
+  opacity: 1;
+  transform: scale(100%);
+  transition: 2s;
 }
 
 .bslider_p {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 
-    width: 60%;
-    height: 90%;
-    position: relative;
-    left: 3%;
-    
-    background-color: whitesmoke;
+  width: 60%;
+  height: 90%;
+  position: relative;
+  left: 3%;
+
+  background-color: whitesmoke;
 }
 
 .bslider_title {
-    position: absolute;
-    top: 12%;
-    left: 6%;
-    width: 90%;
+  position: absolute;
+  top: 12%;
+  left: 6%;
+  width: 90%;
 
-    color: black;
-    font-size: 2.7rem;
-    padding: 30px;
-    background-color: transparent;
-    text-align: left;
-    line-height: 150%;
+  color: black;
+  font-size: 2.7rem;
+  padding: 30px;
+  background-color: transparent;
+  text-align: left;
+  line-height: 150%;
 }
 
 .bslider_subtitle {
-    position: absolute;
-    display: flex;
-    list-style: none;
+  position: absolute;
+  display: flex;
+  list-style: none;
 
-    width: 75%;
-    left: 8%;
-    top: 47%;
-    padding: 10px;
-    text-align: center;
-    background-color: transparent;
-    
+  width: 75%;
+  left: 8%;
+  top: 47%;
+  padding: 10px;
+  text-align: center;
+  background-color: transparent;
 }
 
 .bslider_list {
-    width: 25%;
-    padding: 10px;
+  width: 25%;
+  padding: 10px;
 
-    font-family: 'Spoqa Han Sans Neo';
-    font-size: 1.3rem;
-    font-weight: 600;
-    cursor: pointer;
-    background-color: transparent;
-    color: #303E27;    
+  font-family: 'Spoqa Han Sans Neo';
+  font-size: 1.3rem;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: transparent;
+  color: #303e27;
 }
 
 .bslider_list:hover {
-    border-bottom: 2px solid #303E27; 
+  border-bottom: 2px solid #303e27;
 }
 
-.bslider_list_clicked{
-    border-bottom: 2px solid #303E27; 
+.bslider_list_clicked {
+  border-bottom: 2px solid #303e27;
 }
-
 
 .bslider_content {
-    position: relative;
-    top: 35%;
-    left: 6%;
-    width: 90%;
-    height: 50%;
+  position: relative;
+  top: 35%;
+  left: 6%;
+  width: 90%;
+  height: 50%;
 
-    padding: 40px;
+  padding: 40px;
 
-    line-height: 250%;
-    background-color: transparent;
+  line-height: 250%;
+  background-color: transparent;
 }
 
 .bslider_h3 {
-    background-color: transparent;
-    font-family: 'Noto Sans KR';
-    font-size: 1.3rem;
+  background-color: transparent;
+  font-family: 'Noto Sans KR';
+  font-size: 1.3rem;
 }
 
 .bslider_item {
-    position: absolute;
-    display: flex;
-    width: 30%;
-    height: 70%;
-    right: 5%;
-    
+  position: absolute;
+  display: flex;
+  width: 30%;
+  height: 70%;
+  right: 5%;
 }
 
 .bslider_img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 
-    background-color: transparent;
+  background-color: transparent;
 }
 
-.bslider_img-clicked1, .bslider_img-clicked2, .bslider_img-clicked3, .bslider_img-clicked4 {
-    animation: fade-in 1s ease-in-out;
+.bslider_img-clicked1,
+.bslider_img-clicked2,
+.bslider_img-clicked3,
+.bslider_img-clicked4 {
+  animation: fade-in 1s ease-in-out;
 }
 
 @keyframes fade-in {
-    0% {
-        display: none;
-        opacity: 0;
-        transform: translateX(-10px);
-    }
-    100% {
-        opacity: 1;
-        transform: none;
-    }
+  0% {
+    display: none;
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .bslider_p {
         position: relative;
         bottom: 30%;
@@ -193,4 +193,4 @@
     
         background-color: whitesmoke;
     }
-}
+} */
